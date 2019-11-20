@@ -44,6 +44,13 @@ module.exports = {
         icon: 'src/images/google_developers_logomark_color.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-background-image-es5',
+      options: {
+        // add your own characters to escape, replacing the default ':/'
+        specialChars: '/:',
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
