@@ -4,7 +4,7 @@ import BannerBackgroundImage from './banner-background-image';
 const Banner = () => {
 
     return (
-        <div className="flex flex-col min-h-0 h-screen w-screen">
+        <div id="#home" className="flex flex-col min-h-0 h-screen w-screen">
             <BannerBackgroundImage className="block bg-cover bg-center h-screen w-screen shadow">
 
                 <div className="z-20 flex flex-col items-center justify-center pb-16 text-gray-700 w-full h-full">

@@ -3,7 +3,7 @@ import Container from './container';
 import StudyJamBackgroundImage from './study-jam-background-image';
 
 const WelcomeSection = () => (
-    <div className="flex flex-col h-screen w-screen text-gray-600 border-b-2">
+    <div id="#about" className="flex flex-col h-screen w-screen text-gray-600 border-b-2">
         <Container>
             <h1 className="text-6xl text-orange-400 mb-3">Welcome!
             </h1>
