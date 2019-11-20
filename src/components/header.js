@@ -5,12 +5,10 @@ import Logo from './logo';
 import Nav from './nav';
 
 const Header = () => (
-  <div className="flex items-center bg-white text-gray-700 shadow-lg mb-1">
-    <div className="flex items-center container mx-auto py-2 px-6">
-      <Logo />
-      <Nav />
+  <div className="flex items-center bg-white text-gray-700 shadow-lg py-2 px-10 mb-1">
+    <Logo />
+    <Nav />
 
-    </div>
   </div>
 )
 
