@@ -4,8 +4,8 @@ import { graphql, StaticQuery } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 
 const StudyJamBackgroundImage = ({ className, children }) => (
-    <StaticQuery
-        query={graphql`
+  <StaticQuery
+    query={graphql`
       query {
         desktop: file(relativePath: { eq: "StudyJam.png" }) {
           childImageSharp {
@@ -16,21 +16,21 @@ const StudyJamBackgroundImage = ({ className, children }) => (
         }
       }
     `}
-        render={data => {
-            // Set ImageData.
-            const imageData = data.desktop.childImageSharp.fluid
-            return (
-                <BackgroundImage
-                    Tag="section"
-                    className={className}
-                    fluid={imageData}
-                    backgroundColor={`#040e18`}
-                >
-                    {children}
-                </BackgroundImage>
-            )
-        }}
-    />
+    render={data => {
+      // Set ImageData.
+      const imageData = data.desktop.childImageSharp.fluid
+      return (
+        <BackgroundImage
+          Tag="section"
+          className={className}
+          fluid={imageData}
+          backgroundColor={`#040e18`}
+        >
+          {children}
+        </BackgroundImage>
+      )
+    }}
+  />
 );
 
 export default StudyJamBackgroundImage;

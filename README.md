@@ -1,22 +1,23 @@
-# Gatsby Starter MDX Basic
+# Developer Student Clubs | University of Idaho
 
-View this starter [live on Netlify](https://gatsby-starter-mdx-basic.netlify.com/)
-
-This starter build MDX support into the
-[gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default). Its
+This website is based on gatsby starter template [gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default). Its
 README also applies here.
+It is running on Node Js
 
-1. Create a new Gatsby site using this starter
+# Scripts
+2. Clone the repository
 
 ```sh
-gatsby new my-site https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic
+git clone https://github.com/dsc-uidaho/ui-dsc-website
 ```
 
-2. Install dependencies
+3. Install dependencies
 
 ```sh
 yarn
 ```
+
+
 
 3. Run the develop script
 
@@ -24,4 +25,5 @@ yarn
 yarn develop
 ```
 
-4. Edit Page 2 in `src/pages/page-2.mdx`
+# Author
+- Koffi Anderson Koffi [@kandersonko]
