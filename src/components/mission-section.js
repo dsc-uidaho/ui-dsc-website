@@ -3,7 +3,7 @@ import Container from './container';
 
 
 const MissionSection = () => (
-    <div className="flex flex-col items-center justify-center py-16 w-screen text-gray-600">
+    <div id="#mission" className="flex flex-col items-center justify-center py-16 w-screen text-gray-600">
         <Container>
             <h1 className="text-6xl text-green-400 mb-2">
                 Mission Statement

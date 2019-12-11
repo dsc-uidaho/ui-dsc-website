@@ -96,7 +96,7 @@ const CoreTeamSection = () => {
 
 
     return (
-        <div className="flex flex-col items-center justify-center w-screen text-gray-600 py-16">
+        <div id="core-team" className="flex flex-col items-center justify-center w-screen text-gray-600 py-16">
             <Container>
                 <h1 className="text-6xl text-blue-600 mb-2">
                     Meet the Core Team!

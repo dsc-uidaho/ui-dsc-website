@@ -5,7 +5,7 @@ import Logo from './logo';
 import Nav from './nav';
 
 const Header = () => (
-  <div className="flex items-center bg-white text-gray-700 shadow-lg py-2 px-10 mb-1">
+  <div className="fixed inset-x-0 top-0 z-40 flex items-center bg-white text-gray-700 shadow-md py-2 px-10 mb-1">
     <Logo />
     <Nav />
 

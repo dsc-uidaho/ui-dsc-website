@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="flex flex-col min-h-screen w-screen overflow-hidden bg-gray-100">
+      <div className="relative flex flex-col min-h-screen w-screen overflow-hidden bg-gray-100">
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="flex flex-col bg-gray-100 min-h0 overflow-y-auto"
         >
