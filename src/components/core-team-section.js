@@ -58,7 +58,7 @@ const team = [
         src: "eli"
     },
     {
-        name: "Megan Bigges",
+        name: "Megan Biggs",
         role: "Vice President",
         src: "megan"
     },
